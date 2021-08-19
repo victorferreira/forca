@@ -84,12 +84,12 @@ if nivel == "facil":
     vocabulario = vocabulario_facil
     frutas = frutas_faceis
     objetos = objetos_facies
-elif nivel == "medio"
+elif nivel == "medio":
     animais = animais_medio
     vocabulario = vocabulario_medio
     frutas = frutas_medio
     objetos = objetos_medio
-elif nivel == "dificil"
+elif nivel == "dificil":
     animais = animais_dificil
     vocabulario = vocabulario_dificil
     frutas = frutas_dificil
