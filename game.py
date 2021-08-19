@@ -77,20 +77,20 @@ else:
 tema = int(input('Qual será o tema do jogo? Digite:\n1 para aleatório\n2 para animais\n3 para frutas\n4 para objetos.\n'))
 restart = 0
 
-nivel = str(input("Qual nivel gostaria de jogar!\n"))
+nivel = int(input("Qual nivel gostaria de jogar!\n1 facil\n2 medio\n3 dificil\n"))
 
-if nivel == "facil":
+if nivel == 1:
     animais = animais_faceis
     vocabulario = vocabulario_facil
     frutas = frutas_faceis
     objetos = objetos_facies
-elif nivel == "medio":
+elif nivel == 2:
     animais = animais_medio
     vocabulario = vocabulario_medio
     frutas = frutas_medio
     objetos = objetos_medio
-elif nivel == "dificil":
-    animais = animais_dificil
+elif nivel == 3:
+    animais = animais_dificeis
     vocabulario = vocabulario_dificil
     frutas = frutas_dificil
     objetos = objetos_dificil
